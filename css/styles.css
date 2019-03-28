@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  padding: 0;
+  color:#333333;
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient( circle 884px at 3.7% 9.5%,  rgba(193,106,5,0.58) 41.3%, rgba(255,211,47,0.67) 89.9% );
+  font-family: 'Poppins', 'Lato', sans-serif !important;
+}
+
+p {
+  margin: 0 !important;
+}
+
+.overall {
+  font-size: 3.5rem;
+  font-weight: 300;
+}
+
+.place {
+  font-size: 2rem;
+}
+
+.temp {
+  font-size: 4.5rem;
+  font-weight: 200;
+}
+
+.humidity, .wind, .cloud {
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+.card {
+  position: relative;
+  padding: 1.2rem;
+  background: rgba(0,0,0,0.1) !important;
+  border: none !important;
+  border-radius: 0 !important;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+#place {
+  border: none;
+  box-shadow: none !important;
+  border-radius: 0;
+  background: rgba(0,0,0,0.1);
+}
+
+#place:focus {
+  border: none !important;
+}
+
+.btn {
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}

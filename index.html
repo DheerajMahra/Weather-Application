@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title>WeatherApp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!--Bootstrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <!--Custom CSS-->
+    <link href="css/styles.css" rel="stylesheet"/>
+  </head>
+  <body>
+    
+    <div class="container text-center">
+     
+      <!--Display weather-->
+      <p class="overall">Weather</p>
+      <span class="place">Location</span>
+      <span class="country"></span>
+      <p class="temp">00&deg;</p>
+      
+      <div class="container mb-4">
+        <div class="row">
+          
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/humidity.png">
+              <p class="humidity mt-4">00</p>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/wind.png">
+              <p class="wind mt-4">00</p>
+            </div>
+          </div>
+          
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="img/cloud.png" style="width: 120px;">
+              <p class="cloud mt-4">00</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      
+      <!--Search location-->
+      <div class="input-group mb-5"> 
+        <input type="text" class="form-control form-control-lg" onfocus="this.value=''" placeholder="Search location" id="place">
+        <div class="input-group-append">
+          <button class="btn btn-dark">Search</button>
+        </div>
+      </div>
+      
+    </div>
+    
+    <script src="js/script.js"></script>
+  </body>
+</html>
